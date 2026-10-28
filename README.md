@@ -1,61 +1,58 @@
 # Sashido01
 
-**Software development · Python & TypeScript · AI-assisted applications · Linux**
+**Software Developer · Python & TypeScript · Backend, Automation & AI-assisted Applications**
 
-I build practical software: browser-based applications, API integrations, developer tools, and local-first workflows. My main interests are turning ideas into working products, making complex systems easier to operate, and validating software beyond a successful build.
+I build practical tools and applications, from HTML5 game-generation workflows to read-only financial API integrations. My focus is on **clear architecture, reproducible development, and verifiable results**—not just code that compiles.
 
-## Featured projects
+**What I work on:** backend services · developer tools · AI-assisted workflows · local-first applications
 
-### [YAPLIX — from a text idea to an HTML5 game](https://github.com/Sashido01/YAPLIX)
+## Selected projects
 
-A team project developed for the 2026 IT Sprint hackathon. I work as the **lead developer and integrator**, focusing on the application architecture, backend, game-generation pipeline, and integration.
+### [YAPLIX — text ideas into HTML5 games](https://github.com/Sashido01/YAPLIX)
 
-- Turns text prompts into self-contained HTML5 game candidates, with an editable, versioned workflow.
-- Includes static checks and browser-based validation before accepting generated games.
-- Provides an offline library, game export, and a LAN Arena with QR-based access and persistent results.
-- Documents verification boundaries: local tests do not constitute proof of live model generation or support on every platform.
+A team project for the **2026 IT Sprint hackathon**. I am the **lead developer and integrator**, responsible for core backend and generation workflows, architecture, and integration.
 
-**Stack:** TypeScript, Node.js, Hono, SQLite, Playwright, HTML5 Canvas/WebGL.
+- Builds self-contained HTML5 game candidates from text prompts, with editing and version history.
+- Validates generated content using static checks and sandboxed Chromium/Playwright.
+- Includes local SQLite storage, offline game export, and a QR-accessible LAN Arena with persistent results.
 
-[Repository and documentation](https://github.com/Sashido01/YAPLIX) · [Team contributions](https://github.com/Sashido01/YAPLIX/blob/main/AUTHORS.md)
+**Stack:** TypeScript · Node.js · Hono · SQLite · Playwright · HTML5 Canvas/WebGL
 
-### [tinvest-devkit — read-only tools for T-Invest API projects](https://github.com/Sashido01/tinvest-devkit)
+**Verification:** Core local workflows have been tested; live LLM generation and all target platforms are **not** claimed as fully verified. See the [verification report](https://github.com/Sashido01/YAPLIX/blob/main/docs/submission-verification.md) and [team contributions](https://github.com/Sashido01/YAPLIX/blob/main/AUTHORS.md).
 
-A Python development toolkit for integrating with the T-Invest API while keeping financial data handling explicit and broker access **read-only**.
+### [tinvest-devkit — developer tools for T-Invest API](https://github.com/Sashido01/tinvest-devkit)
 
-- Provides application-level models for accounts, operations, positions, portfolios, prices, and historical candles.
-- Uses `Decimal` for financial values and separates application models from SDK-specific structures.
-- Includes a CLI for environment diagnostics (`doctor`) and new-project scaffolding (`new`).
-- Contains automated tests and documentation for configuration, security, and development workflows.
+A reusable Python toolkit for building applications with the T-Invest API while keeping the broker integration **strictly read-only**.
 
-**Stack:** Python 3.11+, T-Invest SDK, pytest, CLI tooling.
+- Exposes application-owned models for accounts, operations, positions, portfolios, and market data.
+- Preserves financial precision with `Decimal` and supports paginated data retrieval.
+- Provides CLI diagnostics (`doctor`), project scaffolding (`new`), automated tests, and setup documentation.
 
-[Repository and documentation](https://github.com/Sashido01/tinvest-devkit)
+**Stack:** Python 3.11+ · T-Invest SDK · pytest · CLI tooling
 
-## Technical focus
+## Technical toolkit
 
-| Area | Technologies and practices |
+| Area | Tools and technologies |
 | --- | --- |
 | Languages | Python, TypeScript, JavaScript, SQL, Bash |
-| Backend and APIs | Node.js, Hono, Python integrations, REST APIs |
-| Data | SQLite, data modeling, financial-value precision |
-| Testing | Playwright, pytest, Node.js test runner, browser validation |
-| Development environment | Linux, Git, command-line tooling, reproducible setup |
-| Frontend and interactive systems | HTML5, Canvas/WebGL, browser-based applications |
+| Backend & data | Node.js, Hono, REST APIs, SQLite |
+| Testing | Playwright, pytest, Node.js test runner |
+| Development | Linux, Git, CLI tooling, reproducible setup |
+| Interactive applications | HTML5, Canvas/WebGL, browser-based interfaces |
 
-## How I approach development
+## Engineering approach
 
-- **Build for real use:** prioritize usable workflows, clear interfaces, and maintainability.
-- **Verify what works:** distinguish automated test results from real-world and platform-specific testing.
-- **Respect boundaries:** use explicit permissions, local data handling, and read-only integrations where appropriate.
-- **Document decisions:** make setup, architecture, limitations, and recovery steps understandable.
+- **Build for real use.** Usable workflows and maintainable systems over demos alone.
+- **Test the actual behavior.** Keep automated checks distinct from real-device and live-service verification.
+- **Respect data and permissions.** Prefer explicit boundaries, local processing, and read-only access where appropriate.
+- **Document limitations.** Explain what was tested, what remains unverified, and how to reproduce the result.
 
-I am also developing my knowledge of **DevOps/SRE practices**, including Linux operations, CI/CD, and reliability engineering.
+**Currently learning:** DevOps/SRE practices, CI/CD, Linux operations, and reliability engineering.
 
-## About me · Коротко на русском
+## Коротко на русском
 
-Разрабатываю прикладные инструменты на Python и TypeScript, экспериментирую с ИИ-генерацией программ и уделяю внимание тестированию, воспроизводимой сборке и безопасности данных. В открытом портфолио представлены только публичные проекты; другие работы остаются приватными.
+Разрабатываю прикладные инструменты на Python и TypeScript: серверные приложения, интеграции API и решения с использованием ИИ. Особое внимание уделяю тестированию, воспроизводимым сборкам и безопасности данных. В профиле представлены только публичные проекты.
 
 ---
 
-**Explore the repositories above for source code, documentation, and current project limitations.**
+*For implementation details, current limitations, and attribution, see the linked project repositories.*
